@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle kdphtvo4</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>愛唯兒幼兒園：血色六樓</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #111;
+            color: #fff;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #ff4444;
+        }
+        #content {
+            border: 1px solid #ff4444;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #222;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 18px;
+            background-color: #ff4444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>愛唯兒幼兒園：血色六樓</h1>
+    <p>請選擇要閱讀的季節：</p>
+
+    <button onclick="loadContent(1)">第一季</button>
+    <button onclick="loadContent(2)">第二季</button>
+    <button onclick="loadContent(3)">第三季</button>
+    <div id="content">這裡會顯示你的內容...</div>
+
+    <script>
+        function loadContent(season) {
+            let content = "";
+            if (season === 1) {
+                content = `
+                    <h2>第一季總結：愛唯兒幼兒園：血色六樓 I</h2>
+                    <p>愛唯兒幼兒園原本是一所普通的幼兒園，但一場無法解釋的怪異事件打破了它的寧靜。隨著邪惡力量的覺醒，學生們發現自己被困在園內，而六樓的恐怖秘密正等待著他們。</p>
+                    <ul>
+                        <li><strong>主線：</strong> 學生們在這個充滿恐懼的地方被困，無法逃脫。隨著事件的發展，大家發現六樓藏有一種可怕的「傻逼」，那些進入六樓的人再也無法回來。</li>
+                        <li><strong>人物：</strong> 惡名昭彰的英文老師 Jennie，冷酷無情，掌握著全園的恐懼。</li>
+                        <li><strong>結局：</strong> 事件以一場血腥的暴力考試收尾，學生們徹底理解了逃不掉的命運，並開始面對逐漸變得愈加扭曲的愛唯兒幼兒園。</li>
+                    </ul>
+                `;
+            } else if (season === 2) {
+                content = `
+                    <h2>第二季總結：愛唯兒幼兒園：血色六樓 II</h2>
+                    <p>愛唯兒的故事進一步發展，恐怖的力量愈加強大，六樓的秘密漸漸揭開，翁同恩的回歸使得一切進一步惡化。這一季展現了更多恐怖的變故，學生們必須面對更加血腥的考驗。</p>
+                    <ul>
+                        <li><strong>主線：</strong> 故事圍繞著翁同恩的復仇展開，他的出現帶來了更強烈的邪惡能量。Jennie 以更加殘酷的方式對待學生，六樓的陰影無時無刻不在籠罩著他們。</li>
+                        <li><strong>人物：</strong> Jennie 變得更加暴力，她不僅是英文老師，還成為了掌控所有恐怖的主宰。翁同恩的回歸使得整個園區陷入更深的黑暗。</li>
+                        <li><strong>結局：</strong> 翁同恩的悲劇最終達到了巔峰，然而，這場混亂並未結束，反而預示著更加血腥的未來。學生們的恐懼不再是單純的逃生，而是如何面對已經無法擺脫的命運。</li>
+                    </ul>
+                `;
+            } else if (season === 3) {
+                content = `
+                    <h2>第三季總結：愛唯兒幼兒園：血色六樓 III</h2>
+                    <p>愛唯兒幼兒園已經完全變成了地獄般的場所，無論是學生還是老師，都無法逃脫這場永無止境的暴力與恐懼。隨著六樓的最終崩壞，Jennie 成為了這場恐怖考驗的主宰。</p>
+                    <ul>
+                        <li><strong>主線：</strong> 整個園區的恐怖氛圍達到高潮，六樓的秘密和恐怖的力量終於暴露，並且在血腥的考試中達到極致。Jennie 以極端的暴力行為，掌控一切，並將學生們置於死亡邊緣。最終，翁同恩的復仇計劃被徹底打破，邪惡力量的掌控者被徹底摧毀。</li>
+                        <li><strong>人物：</strong> Jennie 以一個無情且惡名昭彰的角色繼續控制著全園，她的暴力行為最終將所有學生逼入了絕境。而翁同恩的結局則是這場劇變的高潮，強化了恐怖的主題。</li>
+                        <li><strong>結局：</strong> 整個愛唯兒幼兒園變成了廢墟，所有的人都消失無蹤，唯有六樓的詭異笑聲繼續回蕩，預示著這場恐怖並未結束。傳聞稱，沒有人能活著離開這裡，直到永遠。</li>
+                    </ul>
+                `;
+            }
+            document.getElementById("content").innerHTML = content;
+        }
+    </script>
+</body>
+</html>
+
+  <script>
+    
+  </script>
+</body>
+</html>
